@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="一份关于设计、代码与日常观察的个人博客。" />
+    <title>MARGIN NOTE · 个人博客</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="返回首页">
+        <span class="brand-mark">M</span>
+        <span class="brand-copy"><strong>MARGIN</strong><span>NOTE / 个人博客</span></span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#home" data-nav="home">文章</a>
+        <a href="#about" data-nav="about">关于</a>
+      </nav>
+      <a class="header-link" href="https://github.com/" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="app" class="page-shell" aria-live="polite"></main>
+
+    <footer class="site-footer">
+      <span>© 2026 MARGIN NOTE</span>
+      <span>写下值得留下的东西。</span>
+    </footer>
+
+    <noscript><p>此博客需要 JavaScript 来显示文章，请启用 JavaScript。</p></noscript>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
